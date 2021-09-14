@@ -1,0 +1,42 @@
+header{
+    background: "BBBBBB"
+}
+
+.precos {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.precos li {
+    display: inline-block;
+    text-align: center;
+    width: 28%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s all;
+}
+.precos li:hover{
+    border-color: chartreuse;
+    transform: scale(1.2);
+}
+.precos li:active{
+    border-color: crimson;
+}
+.precos li:hover h2 {
+    font-size: 35px;
+}
+.precos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descrição {
+    font-size: 18px;
+}
+.valor {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0 0;
+}

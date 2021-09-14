@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>CONTATO</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="contato.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=device-width">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <h1> <img src="Hi_Bingus.png" alt="Imagem de bingus, o gato Barbeiro"></h1>
+
+                <nav>
+                    <ul>
+                        <li> <a href=barbearia.html>casa</a> </li>
+                        <li> <a href=produtos.html>produtos</a> </li>
+                        <li> <a href=contato.html>contato</a> </li>
+                    </ul>
+                <nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                 
+                        <label for="nome"> Nome e Sobrenome </label>
+                        <input type= "text" id="nome" class="imputpadrao" required placeholder="Seu nome aqui">
+                
+                
+                        <label for="email"> Email </label>
+                        <input type="email" id="email" class="imputpadrao" required placeholder="seuemail@dominio.com">
+                
+                
+                        <label for="telefone"> Telefone </label>
+                        <input type="tel" id="telefone" class="imputpadrao" required placeholder="(XX) XXXXX-XXXX">
+               
+                
+                        <label for="mensagem"> Mensagem</label>
+                        <textarea name="Mensagem" id="mensagem" cols="30" rows="10" class="imputpadrao" required></textarea>
+                 
+                </fieldset>
+
+                <fieldset>
+                    
+                    <legend>Como Prefere o nosso contato?</legend>
+                    <label for="radioemail"><input name="contato" type="radio" value="email" id="radioemail" checked>Email</label>
+                       
+                    <label for="radiotelefone"><input name="contato"  type="radio" value="telefone" id="radiotelefone">Telefone</label>
+                      
+                    <label for="radiozap"><input name="contato"  type="radio" value="zap" id="radiozap">Zap</label>                    
+                    
+                    <legend>Qual horario prefere Ser atendido?</legend>
+                    <select class="marcador">
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>                   
+                    
+                    <label><input type="checkbox" class="marcador">Gostaria de receber novidades via email?</label>
+                    
+                </fieldset>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Funcionamento</th>
+                    </tr>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>09:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo e Feriados</td>
+                        <td>Fechado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="tuxedo.jpg" alt="Nosso chefe, o le gato chefon">
+            <p class="copiacerto">&copy; Copyright Barbearia bingus</p>
+        </footer>
+    </body>
+</html>

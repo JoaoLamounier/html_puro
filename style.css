@@ -1,0 +1,96 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(230, 195, 42);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute; 
+    top: 110px ; 
+    right: 10px;
+} 
+
+nav li {
+    display: inline;
+    margin: 0 0 0 5px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 40px;
+    transition: 0.5s color, 1s background;
+    background-color: ivory;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+    background-color: rgb(102, 102, 102);
+
+}
+
+
+.tituloprincipal {
+	text-align: center;
+	font-size: 2em;
+    margin: 0 0 1em;
+	clear: left;
+}
+.tituloprincipal:before{
+	content: "ඞ     ";
+}
+.tituloprincipal:after{
+	content: "ඞ";
+}
+footer{
+    text-align: center;
+    background: url(texture.jpeg);
+    padding: 40px 0;
+}
+
+.copiacerto {
+    color: darkgrey;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+table {
+    margin: 20px auto 40px;
+    width: 28%;
+    vertical-align: top;
+}
+thead {
+    background-color: grey;
+    color: white;
+    font-style: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .caixa, .tudobeficios, .apresentacao, .mapa {
+        width: auto;
+    }
+
+}

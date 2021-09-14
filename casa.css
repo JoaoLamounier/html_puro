@@ -1,0 +1,93 @@
+.banner {
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.smallbingus{
+	width: 120px;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.apresentacao{
+	opacity: 1.4;
+	background-image: url(banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.apresentacao strong {
+	font-weight: bold;
+}
+
+.apresentacao em{
+	font-style: italic;
+}
+
+.apresentacao p {
+	font-size: 25px;
+	color: ivory;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+h1.tituloprincipal{
+	color: ivory;
+}
+.localizacao {
+	padding: 3em 0;
+	background: linear-gradient(ivory,silver);
+}
+.mapa{
+	width: 1040px;
+	margin: 0 auto;
+}
+.localizacao p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.missao {
+	font-size: 20px;
+}
+
+
+.lista{
+	background-color:  silver;
+	padding: 3em 0;
+}
+
+.tudobeneficios{
+	margin: 0 auto;
+	width: 640px;
+}
+
+.listabeneficios{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+}
+
+.beneficios:first-child{
+	font-weight: bold;	
+}
+.beneficios::before{
+	content: "✪";
+}
+.beneficios {
+	line-height: 1.7em;
+	font-size: 23px;
+}
+.imgbeneficios {
+	width: 58%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px  black;
+}
+.imgbeneficios:hover{
+	opacity: 0.6;
+}
+
+.video{
+	width: 460px;
+	margin: 1em auto;
+}
